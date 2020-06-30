@@ -1,0 +1,139 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(rgba(119, 117, 117, 0.466), rgba(121, 120, 120, 0.452)), url("https://www.clarke-energy.com/wp-content/uploads/2020/01/Coal-use-for-all-for-now-scaled.jpg");
+    background-color: gray;
+    background-position: 0;
+    background-attachment: fixed;
+    color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+header {
+    background-image: linear-gradient(rgba(53, 53, 53, 0.9), rgba(63, 63, 63, 0.9));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    justify-content: center;
+}
+
+.nav {
+    display: inline;
+    text-decoration: none;
+    margin: 0 0 0 auto;
+    font-size: 1.1em;
+    padding-right: 10vw;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: seashell;
+}
+
+.nav-link:hover {
+    transform: rotate(20);
+}
+
+.company-logo {
+    background-color: black;
+    margin: 0 auto 0 0;
+}
+
+main {
+    margin: 150px auto 150px auto;
+    width: 60%;
+}
+
+.offer {
+    display: table;
+    margin: 0 auto;
+}
+.offer ul {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.offer li {
+    border-color: mistyrose;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0 15px 15px 15px;
+    margin: 15px;
+    text-align: center;
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.offer li:hover {
+    background-color: rgba(119, 117, 117, 0.466);
+}
+
+.goods-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: mistyrose;
+    background-color: rgb(53, 51, 51);
+    
+}
+
+.goods-price {
+    font-size: 1.1em;
+    color: orangered;
+    line-height: 2em;
+}
+.contact {
+    max-width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+.contact #form {
+    display: block;
+}
+
+.about-us {
+    max-width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+
+footer  {
+    background-color: rgba(53, 53, 53, 0.9);
+    display: flex;
+    bottom: 0;
+    position: static;
+}
+
+
+
+@media (max-width: 900px) {
+    main {
+        width: 70%;
+    }
+    .header {
+        height: 5vh;
+    }
+}
+
+@media (max-width: 750px) {
+    main {
+        width: 80%;
+        }
+    .offer ul {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+    }
+    
+}
